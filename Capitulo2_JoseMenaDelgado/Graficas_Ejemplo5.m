@@ -11,6 +11,5 @@ y=polyval( poli,x);
 raices=roots(poli);
 stem (raices)
 title('Raices del Polinomio')
-
 legend ('Como es de grado 3 nos muestra 3 raices');
 

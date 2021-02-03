@@ -4,6 +4,9 @@
 %valga cero en el punto (0,0).
 R=sqrt (x.^2+y.^2) + eps; 
 z=sin(R)./R;
+x
+y
+z
 mesh (x,y,z)
 title('Graficar en 2D, Superficies.')
 grid on %mostramos cuadriculado

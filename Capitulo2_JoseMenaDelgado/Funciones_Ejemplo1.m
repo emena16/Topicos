@@ -12,7 +12,7 @@ Arg1 = "Cadena"
 Arg2 = "Otra cadena"
 funcionSinRetorno(Arg1,Arg2); %Llamamos a la funcion
 %Podemos invocar a la funcion de manera directa
-funcionQueRetorna(12,88)
+funcionQueRetorna(250,'hola')
 %Como se puede apreciar esta funcion solo retona NULL 
 function funcionSinRetorno(A,B)
     if (isstring(A) & isstring(B))

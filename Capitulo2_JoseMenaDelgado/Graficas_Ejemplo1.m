@@ -2,10 +2,12 @@
 %Graficamos la funcion de seno
 %X = punto inicial : incremento : valor final
 x=0: pi/100:2*pi; %Generamos el vector de X
+x
 y= sin(x); %Generamos el vector de Y
+y
 plot (x,y); %Mandamos a imprimir la grafica con la funcion plot
 title('Titulo del grafico')
-legend ('Anotaciones ')
+legend ('Grafica de SENO ')
 grid on %mostramos cuadriculado
 xlabel('Titulo del eje X')
 ylabel('Titulo del eje Y')
